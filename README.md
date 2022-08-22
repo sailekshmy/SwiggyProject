@@ -139,16 +139,20 @@ Steps Performed :
 </dependency>
 </dependencies>
 
+
 1.Create Folder with name Feature and create a file "Order_restaurant_food.feature" 
+
 2.Write the feature and Scenerio in feature file - generate glue code.
+
 3. Created 2 packages - one for pages and other for testscripts
   Using that feature file snippets write step defnition OrderFoodSteps.java in com.swiggy.testscripts
+
 4.Convert the Maven project[OrderFoodSteps.java] to testNG
+
 5.Implement Page object design model and write source code according to feature file .
 
 Feature: Swiggy Food Order
 
-@TC_102
 Scenario: Order food from swiggy
 
 Given user is in the landing page of swiggy
